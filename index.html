@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -54,43 +56,43 @@
         </div>
     </div>
 </section>
-<div class="container-fluid date">
-    <div class="row">
-        <div class="col">
+<marquee class="container-fluid date">
+    <div class="row owl-carousel-two">
+        <div class="col d-lg-inline-block">
             <p class="text-center">Ye-sales</p>
         </div>
-        <div class="col">
-            <p class="text-center">23.11.2021</p>
+        <div class="col d-lg-inline-block">
+            <p class="text-center">30.11.2021</p>
         </div>
-        <div class="col">
+        <div class="col d-lg-inline-block">
             <p class="text-center">19:00</p>
         </div>
-        <div class="col">
+        <div class="col d-lg-inline-block d-none">
             <p class="text-center">Ye-sales</p>
         </div>
-        <div class="col">
-            <p class="text-center">23.11.2021</p>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">30.11.2021</p>
         </div>
-        <div class="col">
+        <div class="col d-lg-inline-block d-none">
             <p class="text-center">19:00</p>
         </div>
-        <div class="col">
+        <div class="col d-lg-inline-block d-none">
             <p class="text-center">Ye-sales</p>
         </div>
-        <div class="col">
-            <p class="text-center">23.11.2021</p>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">30.11.2021</p>
         </div>
-        <div class="col">
+        <div class="col d-lg-inline-block d-none">
             <p class="text-center">19:00</p>
         </div>
     </div>
-</div>
+</marquee>
 <section class="scr_two">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 left">
                 <div class="video">
-
+                    <iframe width="563" height="317" src="https://www.youtube.com/embed/Oj1GvD03BlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <img src="img/scr_teo_img_five.png"/>
             </div>
@@ -397,8 +399,83 @@
         </div>
     </div>
 </section>
+<section class="scr_eit">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>отзывы о моей работе</h3>
+                <div class="owl-carousel">
+                    <div> <iframe width="860" height="550" src="https://www.youtube.com/embed/SRBIy9yShH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                    <div> <iframe width="860" height="550" src="https://www.youtube.com/embed/RxBTmLo0roQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                    <div> <iframe width="860" height="550" src="https://www.youtube.com/embed/Ze9lCfpdmAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                    <div> <iframe width="860" height="550" src="https://www.youtube.com/embed/4Yt-nH_3F-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<marquee class="container-fluid date bottom">
+    <div class="row owl-carousel-two">
+        <div class="col d-lg-inline-block">
+            <p class="text-center">Ye-sales</p>
+        </div>
+        <div class="col d-lg-inline-block">
+            <p class="text-center">30.11.2021</p>
+        </div>
+        <div class="col d-lg-inline-block">
+            <p class="text-center">19:00</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">Ye-sales</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">30.11.2021</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">19:00</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">Ye-sales</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">30.11.2021</p>
+        </div>
+        <div class="col d-lg-inline-block d-none">
+            <p class="text-center">19:00</p>
+        </div>
+    </div>
+</marquee>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <h2>Заполните форму, чтобы попасть на закрытый вебинар</h2>
+            </div>
+            <img src="img/Arrow.png"/>
+            <div class="col-lg-5 col-12 offset-lg-1">
+                <form action="" method="post" class="text-center">
+                    <h4>Оставьте свои данные</h4>
+                    <input name="nmae" type="text" placeholder="Ваше имя">
+                    <input name="phone" placeholder="Ваш телефон" class="input-roulette" id="input-phone" pattern="^\+38\s[\(][0-9]{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}$" name="phone" type="tel" required="" autocomplete="off" placeholder="+38" title="Формат: +38 (0XX) XXX-XX-XX" onclick="(function(event) {
+                                                    if (!event.target.value.length) {
+                                                        event.target.value = '+38';
+                                                    }
+                                                })(event)" oninput="(function(event) {
+                                                    const x = event.target.value.replace(/\D/g, '').match(/(\d{0,2})(\d{0})(\d{0,3})(\d{0,3})(\d{0,2})(\d{0,2})/);
+                                                    event.target.value = '+38' + (x[4] ? ' (' + x[3] + ') ' : '' + x[3]) + x[4] + (x[5] ? '-' + x[5] : '') + (x[6] ? '-' + x[6] : '');
+                                                })(event)">
+                    <input name="email" type="email" placeholder="Ваше e-mail">
+                    <button type="submit">Записаться бесплатно</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/421ca2af13.js" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
