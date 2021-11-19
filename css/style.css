@@ -45,12 +45,14 @@ header img{
 header p{
     position: absolute;
     top: 20px;
-    left: 144px;
+    left: 139px;
     margin-bottom: 0;
     margin-left: 18px;
     color: white;
     font-size: 45px;
     z-index: 10;
+    font-family: Intro;
+    font-weight: 900;
 }
 @media (max-width: 992px) {
     header p{
@@ -75,6 +77,7 @@ header li{
 }
 
 header li a{
+    font-family: Sansation;
     color: #000000;
     text-decoration: none;
     font-size: 18px;
@@ -93,6 +96,7 @@ header li a:hover{
     text-decoration: none;
 }
 header .botton{
+    font-family: Sansation;
     font-size: 18px;
     padding: 10px 40px;
     border-radius: 71px;
@@ -116,6 +120,8 @@ header .botton{
     left: -25px;
 }
 .scr_one h1{
+    font-family: Intro;
+    font-weight: 900;
     color: #E20A2F;
     font-size: 45px;
     text-shadow: 2px 3px 5px #00000038;
@@ -127,8 +133,10 @@ header .botton{
     max-width: 400px;
     font-size: 18px;
     margin-bottom: 52px;
+    font-family: Sansation;
 }
 .scr_one a{
+    font-family: Sansation;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -153,6 +161,7 @@ header .botton{
     padding-bottom: 7px;
 }
 .date p{
+    font-family: Sansation;
     margin: 0;
     color: white;
     font-size: 29px;
@@ -194,11 +203,13 @@ header .botton{
     z-index: 10;
 }
 .scr_two h2{
+    font-family: Intro;
     color: #E20A2F;
     font-size: 32px;
     margin-bottom: 60px;
 }
 .scr_two p{
+    font-family: Sansation;
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -232,16 +243,20 @@ header .botton{
     color: #E20A2F;
     font-size: 45px;
     margin-bottom: 24px;
+    font-family: Intro;
+    font-weight: 900;
 }
 .scr_three ul{
     padding-left: 20px;
 }
 .scr_three li{
+    font-family: Sansation;
     font-size: 18px;
     max-width: 520px;
     line-height: 21px;
 }
 .scr_three h3{
+    font-family: Sansation;
     font-size: 20px;
     font-weight: bold;
     color: black;
@@ -253,8 +268,11 @@ header .botton{
     padding: 57px 0 66px;
 }
 .scr_foure h2{
+    font-family: Intro;
+    font-weight: 900;
     text-align: center;
     font-size: 45px;
+    color: #E20A2F;
     margin-bottom: 58px;
 
 }
@@ -314,6 +332,7 @@ header .botton{
     }
 }
 .scr_foure p{
+    font-family: Sansation;
     color: white;
     font-size: 13px;
     text-align: center;
@@ -347,11 +366,14 @@ header .botton{
     width: 100%;
 }
 .scr_five h3{
+    font-family: Intro;
+    font-weight: 900;
     color:#E20A2F;
     font-size: 45px;
     margin-bottom: 30px;
 }
 .scr_five h4{
+    font-family: Sansation;
     font-size: 20px;
     color: black;
     margin-bottom: 84px;
@@ -368,13 +390,15 @@ header .botton{
     margin-right: 30px;
 }
 .scr_five .elips h5{
+    font-family: Sansation;
     font-size: 150px;
     color: #00000040;
     position: absolute;
-    bottom: -2px;
-    left: -24px;
+    bottom: -25px;
+    left: -22px;
 }
 .scr_five p{
+    font-family: Sansation;
     max-width: 350px;
     font-size: 18px;
     font-weight: bold;
@@ -386,6 +410,7 @@ header .botton{
         height: 67px;
     }
     .scr_five .elips h5{
+
         font-size: 110px;
     }
     .scr_five p{
@@ -400,12 +425,15 @@ header .botton{
     padding-bottom: 60px;
 }
 .scr_six h3{
+    font-family: Intro;
+    font-weight: 900;
     color: #E20A2F;
     text-shadow: 2px 3px 5px #00000038;
     font-size: 45px;
     margin-bottom: 70px;
 }
 .scr_six p{
+    font-family: Sansation;
     font-size: 18px;
     color: black;
 }
@@ -414,6 +442,7 @@ header .botton{
     text-transform: uppercase;
 }
 .scr_six a{
+    font-family: Sansation;
     padding: 22px 26px;
     color: white;
     text-decoration: none;
@@ -445,6 +474,8 @@ header .botton{
     position: relative;
 }
 .scr_seven h3{
+    font-family: Intro;
+    font-weight: 900;
     color: #E20A2F;
     text-shadow: 2px 3px 5px #00000038;
     font-size: 45px;
@@ -465,16 +496,19 @@ header .botton{
     }
 }
 .scr_seven p{
+    font-family: Sansation;
     font-size: 24px;
     font-weight: bold;
     color: black;
 }
 
 .scr_seven h6{
+    font-family: Intro;
+    font-weight: 900;
     font-size: 347px;
     color: #E20A2F1C;
     position: absolute;
-    bottom: 31%;
+    bottom: 38%;
     right: 0;
 }
 .scr_seven .text_ img{
@@ -493,6 +527,8 @@ header .botton{
     padding-bottom: 89px;
 }
 .scr_eit h3{
+    font-family: Intro;
+    font-weight: 900;
     color: #E20A2F;
     font-size: 48px;
     margin-bottom: 115px;
@@ -573,6 +609,8 @@ footer{
     position: relative;
 }
 footer h2{
+    font-family: Intro;
+    font-weight: 900;
     color: white;
     font-size: 42px;
 }
@@ -588,12 +626,14 @@ footer form{
     border-radius: 30px;
 }
 footer form h4{
+    font-family: Sansation;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
     color: white;
 }
 footer form input{
+    font-family: Sansation;
     height: 55px;
     max-width: 327px;
     width: 100%;
@@ -607,6 +647,7 @@ footer form input::placeholder {
     color:#FFFFFF5C;
 }
 footer form button{
+    font-family: Sansation;
     padding: 24px 13px;
     color: #E20A2F;
     background-color: white;
