@@ -279,10 +279,35 @@ header .botton{
     margin-left: auto;
     margin-right: auto;
 }
+.scr_five{
+    position: relative;
+    padding-bottom: 53px;
+}
+.scr_five .img_camera img{
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    max-width: 227px;
+    width: 100%;
+}
+@media (max-width: 992px) {
+    .scr_five .img_camera img{
+        top: -67px;
+        right: 0;
+        max-width: 123px;
+    }
+}
+.scr_five .img_elips img{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    max-width: 128px;
+    width: 100%;
+}
 .scr_five h3{
     color:#E20A2F;
     font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .scr_five h4{
     font-size: 20px;
@@ -328,4 +353,96 @@ header .botton{
 }
 .block{
     margin-bottom: 118px;
+}
+.scr_six{
+    padding-bottom: 60px;
+}
+.scr_six h3{
+    color: #E20A2F;
+    text-shadow: 2px 3px 5px #00000038;
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+.scr_six p{
+    font-size: 18px;
+    color: black;
+}
+.scr_six p span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.scr_six a{
+    padding: 22px 26px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 71px;
+    background-color: #E20A2F;
+    box-shadow: 0px 3px 8px 0px #B700004F;
+    margin-top: 110px;
+    position: relative;
+    z-index: 10;
+}
+.scr_six .butt{
+    position: relative;
+}
+.scr_six .butt img{
+    position: absolute;
+    bottom: -70px;
+    right: 340px;
+    z-index: 1;
+}
+@media (max-width: 540px) {
+    .scr_six .butt img{
+        right:0;
+        z-index: 1;
+    }
+}
+.scr_seven {
+    padding: 115px 0 152px;
+    position: relative;
+}
+.scr_seven h3{
+    color: #E20A2F;
+    text-shadow: 2px 3px 5px #00000038;
+    font-size: 45px;
+    margin-bottom: 142px;
+    position: relative;
+    z-index: 11;
+}
+.scr_seven .many_three img{
+    position: absolute;
+    top: 0;
+    right: 193px;
+    z-index: 1;
+}
+@media (max-width: 540px) {
+    .scr_seven .many_three img{
+        top: 0;
+        right: 0;
+    }
+}
+.scr_seven p{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.scr_seven h6{
+    font-size: 347px;
+    color: #E20A2F1C;
+    position: absolute;
+    bottom: 31%;
+    right: 0;
+}
+.scr_seven .text_ img{
+    margin-right: 19px;
+}
+@media (max-width: 768px) {
+    .scr_seven p{
+        font-size: 14px;
+    }
+    .scr_seven h6{
+        font-size: 160px;
+    }
 }
