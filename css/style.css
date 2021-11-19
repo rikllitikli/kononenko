@@ -314,6 +314,13 @@ header .botton{
     color: black;
 }
 @media (max-width: 992px) {
+    .scr_five .elips{
+        width: 67px;
+        height: 67px;
+    }
+    .scr_five .elips h5{
+        font-size: 110px;
+    }
     .scr_five p{
         max-width: 185px;
         font-size: 14px;
